@@ -1,0 +1,66 @@
+# Secrets (TMDB token, NewsAPI key). Keep the *.example.xcconfig templates tracked.
+Secrets.xcconfig
+**/Config/Secrets.xcconfig
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcresult
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# SwiftLint / coverage output
+*.profraw
+*.profdata
+coverage/
+*.lcov
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*~.nib
+
+# AI tooling (assessment rule: no AI attribution in the repo)
+.claude/
+.codex/
+.opencode/
